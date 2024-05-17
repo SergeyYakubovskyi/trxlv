@@ -1,0 +1,1501 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240517174235">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container-big">
+				<button type="button" class="menu__icon icon-menu">
+					<span></span>
+				</button>
+				<a href="#" class="header__logo"><img src="img/logo.svg" alt="logo" /></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Stays</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Flights</a></li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Packages</a>
+							</li>
+							<li class="menu__item"><a href="#" class="menu__link">Sing Up</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="hero">
+				<img class="hero__bg hero__bg--1 ibg img-visible" src="img/hero/hero-bg.webp" data-tab-image="1">
+				<img class="hero__bg hero__bg--2 ibg" src="img/hero/hero-bg2.webp" data-tab-image="2">
+				<div class="hero__container">
+					<h1 class="hero__title title--xl" data-watch data-watch-once>
+						The whole world awaits.
+					</h1>
+					<div class="hero__action action-block">
+						<form class="action-block__search search">
+							<button type="submit" class="search__button" aria-label="search button"></button>
+							<input data-required="email" type="text" name="search" placeholder="Search destinations, hotels" class="search__input input" />
+						</form>
+						<div class="action-block__buttons">
+							<div class="action-block__check-row">
+								<div class="action-block__check-wrapp">
+									<button type="button" class="action-block__check">
+										Check in
+									</button>
+									<span>|</span>
+									<button type="button" class="action-block__check">
+										Check out
+									</button>
+								</div>
+								<button type="button" class="action-block__choose">
+									1 room, 2 adults
+								</button>
+							</div>
+							<button type="button" class="action-block__button btn">
+								Search
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div data-tabs class="categories" data-da=".vacation__container,767,0">
+				<div class="categories__slider swiper-categories swiper">
+					<h2 class="categories__subtitle title title--m" data-watch data-watch-once>
+						Top categories
+					</h2>
+					<nav data-tabs-titles class="categories__wrapper categories__navigation swiper-wrapper">
+						<div class="categories__slide swiper-slide" data-target="1">
+							<button type="button" class="categories__title">
+								<img class="categories__icon" src="img/icons/c-beach.webp" alt="category" />
+								<div class="categories__text">Beaches</div>
+							</button>
+						</div>
+						<div class="categories__slide swiper-slide" data-target="2">
+							<button type="button" class="categories__title">
+								<img class="categories__icon" src="img/icons/c-deserts.webp" alt="category" />
+								<div class="categories__text">Deserts</div>
+							</button>
+						</div>
+						<div class="categories__slide swiper-slide" data-target="1">
+							<button type="button" class="categories__title">
+								<img class="categories__icon" src="img/icons/c-mountains.webp" alt="category" />
+								<div class="categories__text">Mountains</div>
+							</button>
+						</div>
+						<div class="categories__slide swiper-slide" data-target="2">
+							<button type="button" class="categories__title">
+								<img class="categories__icon" src="img/icons/c-cities.webp" alt="category" />
+								<div class="categories__text">Iconic Cities</div>
+							</button>
+						</div>
+						<div class="categories__slide swiper-slide" data-target="1">
+							<button type="button" class="categories__title">
+								<img class="categories__icon" src="img/icons/c-houseboats.webp" alt="category" />
+								<div class="categories__text">Houseboats</div>
+							</button>
+						</div>
+						<div class="categories__slide swiper-slide _tab-active" data-target="2">
+							<button type="button" class="categories__title">
+								<img class="categories__icon" src="img/icons/c-countryside.webp" alt="category" />
+								<div class="categories__text">Countryside</div>
+							</button>
+						</div>
+						<div class="categories__slide swiper-slide" data-target="1">
+							<button type="button" class="categories__title">
+								<img class="categories__icon" src="img/icons/c-camping.webp" alt="category" />
+								<div class="categories__text">Camping</div>
+							</button>
+						</div>
+						<div class="categories__slide swiper-slide" data-target="2">
+							<button type="button" class="categories__title">
+								<img class="categories__icon" src="img/icons/c-castle.webp" alt="category" />
+								<div class="categories__text">Castles</div>
+							</button>
+						</div>
+						<div class="categories__slide swiper-slide " data-target="1">
+							<button type="button" class="categories__title">
+								<img class="categories__icon" src="img/icons/c-skilling.webp" alt="category" />
+								<div class="categories__text">Skiing</div>
+							</button>
+						</div>
+						<div class="categories__slide swiper-slide" data-target="2">
+							<button type="button" class="categories__title">
+								<img class="categories__icon" src="img/icons/c-tropical.webp" alt="category" />
+								<div class="categories__text">Tropical</div>
+							</button>
+						</div>
+					</nav>
+				</div>
+				<div data-tabs-body class="categories__content">
+					<div class="categories__body"></div>
+					<div class="categories__body"></div>
+					<div class="categories__body">
+						<section class="popular">
+							<div class="popular__row __out-of-container">
+								<h2 class="popular__title title title--m" data-watch data-watch-once>
+									Popular Beach Destinations
+								</h2>
+								<div class="card__slider swiper">
+									<div class="card__wrapper swiper-wrapper">
+										<div class="card__slide swiper-slide">
+											<div class="card__body">
+												<div class="card__image-row">
+													<img class="card__image ibg" src="img/beach/b-1.webp" alt="#" id="cardImage" />
+													<button class="card__like-btn icon-like" type="button" id="likeButton"></button>
+												</div>
+												<div class="card__content content-card">
+													<a class="content-card__title" href="#">
+														<h3>Swiss</h3>
+														<div class="content-card__rating">4.7</div>
+													</a>
+													<div class="content-card__description">
+														3 Days 4 Nights
+													</div>
+													<div class="content-card__services services">
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-4.svg" alt="service" />
+															<div class="services__text">2 Flights</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-1.svg" alt="service" />
+															<div class="services__text">1 Hotel</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-2.svg" alt="service" />
+															<div class="services__text">2 Transfers</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-3.svg" alt="service" />
+															<div class="services__text">4 Activities</div>
+														</div>
+													</div>
+													<ul class="content-card__included included-list">
+														<div class="included-list__item">
+															Tour combo with return airport transfer
+														</div>
+														<div class="included-list__item">City Tour</div>
+														<div class="included-list__item">
+															Curious Corner
+														</div>
+													</ul>
+													<div class="content-card__price price">
+														<div class="price__before">₹88,952</div>
+														<div class="price__now">
+															₹88,952 <span>Per person</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card__slide swiper-slide">
+											<div class="card__body">
+												<div class="card__image-row">
+													<img class="card__image ibg" src="img/beach/b-2.webp" alt="#" id="cardImage" />
+													<button class="card__like-btn icon-like" type="button" id="likeButton"></button>
+												</div>
+												<div class="card__content content-card">
+													<a class="content-card__title" href="#">
+														<h3>Hallstatt</h3>
+														<div class="content-card__rating">4.9</div>
+													</a>
+													<div class="content-card__description">
+														3 Days 4 Nights
+													</div>
+													<div class="content-card__services services">
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-4.svg" alt="service" />
+															<div class="services__text">2 Flights</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-1.svg" alt="service" />
+															<div class="services__text">1 Hotel</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-2.svg" alt="service" />
+															<div class="services__text">2 Transfers</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-3.svg" alt="service" />
+															<div class="services__text">4 Activities</div>
+														</div>
+													</div>
+													<ul class="content-card__included included-list">
+														<div class="included-list__item">
+															Tour combo with return airport transfer
+														</div>
+														<div class="included-list__item">City Tour</div>
+														<div class="included-list__item">
+															Curious Corner
+														</div>
+													</ul>
+													<div class="content-card__price price">
+														<div class="price__before">₹88,952</div>
+														<div class="price__now">
+															₹88,952 <span>Per person</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card__slide swiper-slide">
+											<div class="card__body">
+												<div class="card__image-row">
+													<img class="card__image ibg" src="img/beach/b-3.webp" alt="#" id="cardImage" />
+													<button class="card__like-btn icon-like" type="button" id="likeButton"></button>
+												</div>
+												<div class="card__content content-card">
+													<a class="content-card__title" href="#">
+														<h3>Foroe Island</h3>
+														<div class="content-card__rating">4.5</div>
+													</a>
+													<div class="content-card__description">
+														3 Days 4 Nights
+													</div>
+													<div class="content-card__services services">
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-4.svg" alt="service" />
+															<div class="services__text">2 Flights</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-1.svg" alt="service" />
+															<div class="services__text">1 Hotel</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-2.svg" alt="service" />
+															<div class="services__text">2 Transfers</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-3.svg" alt="service" />
+															<div class="services__text">4 Activities</div>
+														</div>
+													</div>
+													<ul class="content-card__included included-list">
+														<div class="included-list__item">
+															Tour combo with return airport transfer
+														</div>
+														<div class="included-list__item">City Tour</div>
+														<div class="included-list__item">
+															Curious Corner
+														</div>
+													</ul>
+													<div class="content-card__price price">
+														<div class="price__before">₹88,952</div>
+														<div class="price__now">
+															₹88,952 <span>Per person</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card__slide swiper-slide">
+											<div class="card__body">
+												<div class="card__image-row">
+													<img class="card__image ibg" src="img/beach/b-4.webp" alt="#" id="cardImage" />
+													<button class="card__like-btn icon-like" type="button" id="likeButton"></button>
+												</div>
+												<div class="card__content content-card">
+													<a class="content-card__title" href="#">
+														<h3>Innsbruck</h3>
+														<div class="content-card__rating">4.7</div>
+													</a>
+													<div class="content-card__description">
+														3 Days 4 Nights
+													</div>
+													<div class="content-card__services services">
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-4.svg" alt="service" />
+															<div class="services__text">2 Flights</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-1.svg" alt="service" />
+															<div class="services__text">1 Hotel</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-2.svg" alt="service" />
+															<div class="services__text">2 Transfers</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-3.svg" alt="service" />
+															<div class="services__text">4 Activities</div>
+														</div>
+													</div>
+													<ul class="content-card__included included-list">
+														<div class="included-list__item">
+															Tour combo with return airport transfer
+														</div>
+														<div class="included-list__item">City Tour</div>
+														<div class="included-list__item">
+															Curious Corner
+														</div>
+													</ul>
+													<div class="content-card__price price">
+														<div class="price__before">₹88,952</div>
+														<div class="price__now">
+															₹88,952 <span>Per person</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card__slide swiper-slide">
+											<div class="card__body">
+												<div class="card__image-row">
+													<img class="card__image ibg" src="img/beach/b-1.webp" alt="#" id="cardImage" />
+													<button class="card__like-btn icon-like" type="button" id="likeButton"></button>
+												</div>
+												<div class="card__content content-card">
+													<a class="content-card__title" href="#">
+														<h3>Swiss</h3>
+														<div class="content-card__rating">4.7</div>
+													</a>
+													<div class="content-card__description">
+														3 Days 4 Nights
+													</div>
+													<div class="content-card__services services">
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-4.svg" alt="service" />
+															<div class="services__text">2 Flights</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-1.svg" alt="service" />
+															<div class="services__text">1 Hotel</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-2.svg" alt="service" />
+															<div class="services__text">2 Transfers</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-3.svg" alt="service" />
+															<div class="services__text">4 Activities</div>
+														</div>
+													</div>
+													<ul class="content-card__included included-list">
+														<div class="included-list__item">
+															Tour combo with return airport transfer
+														</div>
+														<div class="included-list__item">City Tour</div>
+														<div class="included-list__item">
+															Curious Corner
+														</div>
+													</ul>
+													<div class="content-card__price price">
+														<div class="price__before">₹88,952</div>
+														<div class="price__now">
+															₹88,952 <span>Per person</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="viewed">
+							<div class="viewed__row __out-of-container">
+								<h2 class="viewed__title title title--m" data-watch data-watch-once>
+									Recently Viewed
+								</h2>
+								<div class="card__slider swiper">
+									<div class="card__wrapper swiper-wrapper">
+										<div class="card__slide swiper-slide">
+											<div class="card__body">
+												<div class="card__image-row">
+													<img class="card__image ibg" src="img/beach/b-2.webp" alt="#" id="cardImage" />
+													<button class="card__like-btn icon-like" type="button" id="likeButton"></button>
+												</div>
+												<div class="card__content content-card">
+													<a class="content-card__title" href="#">
+														<h3>Hallstatt</h3>
+														<div class="content-card__rating">4.9</div>
+													</a>
+													<div class="content-card__description">
+														3 Days 4 Nights
+													</div>
+													<div class="content-card__services services">
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-4.svg" alt="service" />
+															<div class="services__text">2 Flights</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-1.svg" alt="service" />
+															<div class="services__text">1 Hotel</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-2.svg" alt="service" />
+															<div class="services__text">2 Transfers</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-3.svg" alt="service" />
+															<div class="services__text">4 Activities</div>
+														</div>
+													</div>
+													<ul class="content-card__included included-list">
+														<div class="included-list__item">
+															Tour combo with return airport transfer
+														</div>
+														<div class="included-list__item">City Tour</div>
+														<div class="included-list__item">
+															Curious Corner
+														</div>
+													</ul>
+													<div class="content-card__price price">
+														<div class="price__before">₹88,952</div>
+														<div class="price__now">
+															₹88,952 <span>Per person</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card__slide swiper-slide">
+											<div class="card__body">
+												<div class="card__image-row">
+													<img class="card__image ibg" src="img/beach/b-1.webp" alt="#" id="cardImage" />
+													<button class="card__like-btn icon-like" type="button" id="likeButton"></button>
+												</div>
+												<div class="card__content content-card">
+													<a class="content-card__title" href="#">
+														<h3>Swiss</h3>
+														<div class="content-card__rating">4.7</div>
+													</a>
+													<div class="content-card__description">
+														3 Days 4 Nights
+													</div>
+													<div class="content-card__services services">
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-4.svg" alt="service" />
+															<div class="services__text">2 Flights</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-1.svg" alt="service" />
+															<div class="services__text">1 Hotel</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-2.svg" alt="service" />
+															<div class="services__text">2 Transfers</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-3.svg" alt="service" />
+															<div class="services__text">4 Activities</div>
+														</div>
+													</div>
+													<ul class="content-card__included included-list">
+														<div class="included-list__item">
+															Tour combo with return airport transfer
+														</div>
+														<div class="included-list__item">City Tour</div>
+														<div class="included-list__item">
+															Curious Corner
+														</div>
+													</ul>
+													<div class="content-card__price price">
+														<div class="price__before">₹88,952</div>
+														<div class="price__now">
+															₹88,952 <span>Per person</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card__slide swiper-slide">
+											<div class="card__body wish">
+												<div class="wish__row">
+													<h3 class="wish__title">Summer Bonanza!</h3>
+													<div class="wish__text">
+														<p>
+															Enjoy confortable transfers in shared coaches
+														</p>
+														<p>Choose from 5 flights per week</p>
+														<p>
+															Get a free Rapid Antigen Test at selected hotels
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="inclusive">
+							<div class="inclusive__row __out-of-container">
+								<h2 class="inclusive__title title title--m" data-watch data-watch-once>
+									All Inclusive Packages!
+								</h2>
+								<div class="card__slider swiper">
+									<div class="card__wrapper swiper-wrapper">
+										<div class="card__slide swiper-slide">
+											<div class="card__body">
+												<div class="card__image-row">
+													<img class="card__image ibg" src="img/inclusive/inclusive-1.webp" alt="#" id="cardImage" />
+													<button class="card__like-btn icon-like" type="button" id="likeButton"></button>
+												</div>
+												<div class="card__content content-card">
+													<a class="content-card__title" href="#">
+														<h3>Val di Funes</h3>
+														<div class="content-card__rating">4.7</div>
+													</a>
+													<div class="content-card__description">
+														3 Days 4 Nights
+													</div>
+													<div class="content-card__services services">
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-4.svg" alt="service" />
+															<div class="services__text">2 Flights</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-1.svg" alt="service" />
+															<div class="services__text">1 Hotel</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-2.svg" alt="service" />
+															<div class="services__text">2 Transfers</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-3.svg" alt="service" />
+															<div class="services__text">4 Activities</div>
+														</div>
+													</div>
+													<ul class="content-card__included included-list">
+														<div class="included-list__item">
+															Tour combo with return airport transfer
+														</div>
+														<div class="included-list__item">City Tour</div>
+														<div class="included-list__item">
+															Curious Corner
+														</div>
+													</ul>
+													<div class="content-card__price price">
+														<div class="price__before">₹88,952</div>
+														<div class="price__now">
+															₹88,952 <span>Per person</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card__slide swiper-slide">
+											<div class="card__body">
+												<div class="card__image-row">
+													<img class="card__image ibg" src="img/inclusive/inclusive-2.webp" alt="#" id="cardImage" />
+													<button class="card__like-btn icon-like" type="button" id="likeButton"></button>
+												</div>
+												<div class="card__content content-card">
+													<a class="content-card__title" href="#">
+														<h3>Ushuaia</h3>
+														<div class="content-card__rating">4.9</div>
+													</a>
+													<div class="content-card__description">
+														3 Days 4 Nights
+													</div>
+													<div class="content-card__services services">
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-4.svg" alt="service" />
+															<div class="services__text">2 Flights</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-1.svg" alt="service" />
+															<div class="services__text">1 Hotel</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-2.svg" alt="service" />
+															<div class="services__text">2 Transfers</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-3.svg" alt="service" />
+															<div class="services__text">4 Activities</div>
+														</div>
+													</div>
+													<ul class="content-card__included included-list">
+														<div class="included-list__item">
+															Tour combo with return airport transfer
+														</div>
+														<div class="included-list__item">City Tour</div>
+														<div class="included-list__item">
+															Curious Corner
+														</div>
+													</ul>
+													<div class="content-card__price price">
+														<div class="price__before">₹88,952</div>
+														<div class="price__now">
+															₹88,952 <span>Per person</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card__slide swiper-slide">
+											<div class="card__body">
+												<div class="card__image-row">
+													<img class="card__image ibg" src="img/inclusive/inclusive-3.webp" alt="#" id="cardImage" />
+													<button class="card__like-btn icon-like" type="button" id="likeButton"></button>
+												</div>
+												<div class="card__content content-card">
+													<a class="content-card__title" href="#">
+														<h3>Berchtesgaden</h3>
+														<div class="content-card__rating">4.5</div>
+													</a>
+													<div class="content-card__description">
+														3 Days 4 Nights
+													</div>
+													<div class="content-card__services services">
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-4.svg" alt="service" />
+															<div class="services__text">2 Flights</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-1.svg" alt="service" />
+															<div class="services__text">1 Hotel</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-2.svg" alt="service" />
+															<div class="services__text">2 Transfers</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-3.svg" alt="service" />
+															<div class="services__text">4 Activities</div>
+														</div>
+													</div>
+													<ul class="content-card__included included-list">
+														<div class="included-list__item">
+															Tour combo with return airport transfer
+														</div>
+														<div class="included-list__item">City Tour</div>
+														<div class="included-list__item">
+															Curious Corner
+														</div>
+													</ul>
+													<div class="content-card__price price">
+														<div class="price__before">₹88,952</div>
+														<div class="price__now">
+															₹88,952 <span>Per person</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card__slide swiper-slide">
+											<div class="card__body">
+												<div class="card__image-row">
+													<img class="card__image ibg" src="img/inclusive/inclusive-4.webp" alt="#" id="cardImage" />
+													<button class="card__like-btn icon-like" type="button" id="likeButton"></button>
+												</div>
+												<div class="card__content content-card">
+													<a class="content-card__title" href="#">
+														<h3>Fussen</h3>
+														<div class="content-card__rating">4.7</div>
+													</a>
+													<div class="content-card__description">
+														3 Days 4 Nights
+													</div>
+													<div class="content-card__services services">
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-4.svg" alt="service" />
+															<div class="services__text">2 Flights</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-1.svg" alt="service" />
+															<div class="services__text">1 Hotel</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-2.svg" alt="service" />
+															<div class="services__text">2 Transfers</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-3.svg" alt="service" />
+															<div class="services__text">4 Activities</div>
+														</div>
+													</div>
+													<ul class="content-card__included included-list">
+														<div class="included-list__item">
+															Tour combo with return airport transfer
+														</div>
+														<div class="included-list__item">City Tour</div>
+														<div class="included-list__item">
+															Curious Corner
+														</div>
+													</ul>
+													<div class="content-card__price price">
+														<div class="price__before">₹88,952</div>
+														<div class="price__now">
+															₹88,952 <span>Per person</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card__slide swiper-slide">
+											<div class="card__body">
+												<div class="card__image-row">
+													<img class="card__image ibg" src="img/inclusive/inclusive-1.webp" alt="#" id="cardImage" />
+													<button class="card__like-btn icon-like" type="button" id="likeButton"></button>
+												</div>
+												<div class="card__content content-card">
+													<a class="content-card__title" href="#">
+														<h3>Swiss</h3>
+														<div class="content-card__rating">4.7</div>
+													</a>
+													<div class="content-card__description">
+														3 Days 4 Nights
+													</div>
+													<div class="content-card__services services">
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-4.svg" alt="service" />
+															<div class="services__text">2 Flights</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-1.svg" alt="service" />
+															<div class="services__text">1 Hotel</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-2.svg" alt="service" />
+															<div class="services__text">2 Transfers</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-3.svg" alt="service" />
+															<div class="services__text">4 Activities</div>
+														</div>
+													</div>
+													<ul class="content-card__included included-list">
+														<div class="included-list__item">
+															Tour combo with return airport transfer
+														</div>
+														<div class="included-list__item">City Tour</div>
+														<div class="included-list__item">
+															Curious Corner
+														</div>
+													</ul>
+													<div class="content-card__price price">
+														<div class="price__before">₹88,952</div>
+														<div class="price__now">
+															₹88,952 <span>Per person</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="special">
+							<div class="special__row __out-of-container">
+								<h2 class="special__title title title--m" data-watch data-watch-once>
+									Honeymoon Freebies Special
+								</h2>
+								<div class="card__slider swiper">
+									<div class="card__wrapper swiper-wrapper">
+										<div class="card__slide swiper-slide">
+											<div class="card__body">
+												<div class="card__image-row">
+													<img class="card__image ibg" src="img/special/special-1.webp" alt="#" id="cardImage" />
+													<button class="card__like-btn icon-like" type="button" id="likeButton"></button>
+												</div>
+												<div class="card__content content-card">
+													<a class="content-card__title" href="#">
+														<h3>Mauritius</h3>
+														<div class="content-card__rating">4.7</div>
+													</a>
+													<div class="content-card__description">
+														3 Days 4 Nights
+													</div>
+													<div class="content-card__services services">
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-4.svg" alt="service" />
+															<div class="services__text">2 Flights</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-1.svg" alt="service" />
+															<div class="services__text">1 Hotel</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-2.svg" alt="service" />
+															<div class="services__text">2 Transfers</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-3.svg" alt="service" />
+															<div class="services__text">4 Activities</div>
+														</div>
+													</div>
+													<ul class="content-card__included included-list">
+														<div class="included-list__item">
+															Tour combo with return airport transfer
+														</div>
+														<div class="included-list__item">City Tour</div>
+														<div class="included-list__item">
+															Curious Corner
+														</div>
+													</ul>
+													<div class="content-card__price price">
+														<div class="price__before">₹88,952</div>
+														<div class="price__now">
+															₹88,952 <span>Per person</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card__slide swiper-slide">
+											<div class="card__body">
+												<div class="card__image-row">
+													<img class="card__image ibg" src="img/special/special-2.webp" alt="#" id="cardImage" />
+													<button class="card__like-btn icon-like" type="button" id="likeButton"></button>
+												</div>
+												<div class="card__content content-card">
+													<a class="content-card__title" href="#">
+														<h3>Havelock</h3>
+														<div class="content-card__rating">4.9</div>
+													</a>
+													<div class="content-card__description">
+														3 Days 4 Nights
+													</div>
+													<div class="content-card__services services">
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-4.svg" alt="service" />
+															<div class="services__text">2 Flights</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-1.svg" alt="service" />
+															<div class="services__text">1 Hotel</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-2.svg" alt="service" />
+															<div class="services__text">2 Transfers</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-3.svg" alt="service" />
+															<div class="services__text">4 Activities</div>
+														</div>
+													</div>
+													<ul class="content-card__included included-list">
+														<div class="included-list__item">
+															Tour combo with return airport transfer
+														</div>
+														<div class="included-list__item">City Tour</div>
+														<div class="included-list__item">
+															Curious Corner
+														</div>
+													</ul>
+													<div class="content-card__price price">
+														<div class="price__before">₹88,952</div>
+														<div class="price__now">
+															₹88,952 <span>Per person</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card__slide swiper-slide">
+											<div class="card__body">
+												<div class="card__image-row">
+													<img class="card__image ibg" src="img/special/special-3.webp" alt="#" id="cardImage" />
+													<button class="card__like-btn icon-like" type="button" id="likeButton"></button>
+												</div>
+												<div class="card__content content-card">
+													<a class="content-card__title" href="#">
+														<h3>Whitsunday Islands</h3>
+														<div class="content-card__rating">4.5</div>
+													</a>
+													<div class="content-card__description">
+														3 Days 4 Nights
+													</div>
+													<div class="content-card__services services">
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-4.svg" alt="service" />
+															<div class="services__text">2 Flights</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-1.svg" alt="service" />
+															<div class="services__text">1 Hotel</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-2.svg" alt="service" />
+															<div class="services__text">2 Transfers</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-3.svg" alt="service" />
+															<div class="services__text">4 Activities</div>
+														</div>
+													</div>
+													<ul class="content-card__included included-list">
+														<div class="included-list__item">
+															Tour combo with return airport transfer
+														</div>
+														<div class="included-list__item">City Tour</div>
+														<div class="included-list__item">
+															Curious Corner
+														</div>
+													</ul>
+													<div class="content-card__price price">
+														<div class="price__before">₹88,952</div>
+														<div class="price__now">
+															₹88,952 <span>Per person</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card__slide swiper-slide">
+											<div class="card__body">
+												<div class="card__image-row">
+													<img class="card__image ibg" src="img/special/special-4.webp" alt="#" id="cardImage" />
+													<button class="card__like-btn icon-like" type="button" id="likeButton"></button>
+												</div>
+												<div class="card__content content-card">
+													<a class="content-card__title" href="#">
+														<h3>Maldives</h3>
+														<div class="content-card__rating">4.7</div>
+													</a>
+													<div class="content-card__description">
+														3 Days 4 Nights
+													</div>
+													<div class="content-card__services services">
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-4.svg" alt="service" />
+															<div class="services__text">2 Flights</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-1.svg" alt="service" />
+															<div class="services__text">1 Hotel</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-2.svg" alt="service" />
+															<div class="services__text">2 Transfers</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-3.svg" alt="service" />
+															<div class="services__text">4 Activities</div>
+														</div>
+													</div>
+													<ul class="content-card__included included-list">
+														<div class="included-list__item">
+															Tour combo with return airport transfer
+														</div>
+														<div class="included-list__item">City Tour</div>
+														<div class="included-list__item">
+															Curious Corner
+														</div>
+													</ul>
+													<div class="content-card__price price">
+														<div class="price__before">₹88,952</div>
+														<div class="price__now">
+															₹88,952 <span>Per person</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card__slide swiper-slide">
+											<div class="card__body">
+												<div class="card__image-row">
+													<img class="card__image ibg" src="img/special/special-1.webp" alt="#" id="cardImage" />
+													<button class="card__like-btn icon-like" type="button" id="likeButton"></button>
+												</div>
+												<div class="card__content content-card">
+													<a class="content-card__title" href="#">
+														<h3>Swiss</h3>
+														<div class="content-card__rating">4.7</div>
+													</a>
+													<div class="content-card__description">
+														3 Days 4 Nights
+													</div>
+													<div class="content-card__services services">
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-4.svg" alt="service" />
+															<div class="services__text">2 Flights</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-1.svg" alt="service" />
+															<div class="services__text">1 Hotel</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-2.svg" alt="service" />
+															<div class="services__text">2 Transfers</div>
+														</div>
+														<div class="services__item">
+															<img class="services__icon" src="img/icons/service-3.svg" alt="service" />
+															<div class="services__text">4 Activities</div>
+														</div>
+													</div>
+													<ul class="content-card__included included-list">
+														<div class="included-list__item">
+															Tour combo with return airport transfer
+														</div>
+														<div class="included-list__item">City Tour</div>
+														<div class="included-list__item">
+															Curious Corner
+														</div>
+													</ul>
+													<div class="content-card__price price">
+														<div class="price__before">₹88,952</div>
+														<div class="price__now">
+															₹88,952 <span>Per person</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+					<div class="categories__body"></div>
+					<div class="categories__body"></div>
+					<div class="categories__body">
+						<section class="vacation">
+							<div class="vacation__row __out-of-container">
+								<h2 class="vacation__title title title--m" data-watch data-watch-once>
+									Top Vacation Destinations
+								</h2>
+								<div class="vacation__slider swiper">
+									<div class="vacation__wrapper swiper-wrapper">
+										<div class="vacation__slide swiper-slide" href="#">
+											<a class="vacation__body" href="#">
+												<h3 class="vacation__lable title title--s">
+													Bali, Indonesia
+												</h3>
+												<img class="vacation__image ibg" src="img/vacation/v1.webp" alt="vacation place" />
+											</a>
+										</div>
+										<a class="vacation__slide swiper-slide" href="#">
+											<div class="vacation__body">
+												<h3 class="vacation__lable title title--s">
+													Kerry, Ireland
+												</h3>
+												<img class="vacation__image ibg" src="img/vacation/v2.webp" alt="vacation place" />
+											</div>
+										</a>
+										<a class="vacation__slide swiper-slide" href="#">
+											<div class="vacation__body">
+												<h3 class="vacation__lable title title--s">
+													Sydney, Australia
+												</h3>
+												<img class="vacation__image ibg" src="img/vacation/v3.webp" alt="vacation place" />
+											</div>
+										</a>
+										<a class="vacation__slide swiper-slide" href="#">
+											<div class="vacation__body">
+												<h3 class="vacation__lable title title--s">
+													Paris, France
+												</h3>
+												<img class="vacation__image ibg" src="img/vacation/v4.webp" alt="vacation place" />
+											</div>
+										</a>
+										<a class="vacation__slide swiper-slide" href="#">
+											<div class="vacation__body">
+												<h3 class="vacation__lable title title--s">
+													Kerry, Ireland
+												</h3>
+												<img class="vacation__image ibg" src="img/vacation/v1.webp" alt="vacation place" />
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="offers">
+							<div class="offers__row __out-of-container">
+								<h2 class="offers__title title title--m" data-watch data-watch-once>
+									Offers
+								</h2>
+								<div class="offers__slider swiper">
+									<div class="offers__wrapper swiper-wrapper">
+										<div class="offers__slide swiper-slide">
+											<div class="offers__body">
+												<img class="offers__image ibg" src="img/offers/offer-1.webp" alt="offer" />
+												<div class="offers__content content-offer">
+													<div class="content-offer__subtitle">
+														Domestic Flights
+													</div>
+													<a class="content-offer__title title title--s" data-watch data-watch-once href="#">
+														<h3>Huge savings on flight with trxvl.</h3>
+													</a>
+													<div class="content-offer__text">
+														<p>Book domestic flights starting @ just ₹1459</p>
+													</div>
+													<a class="content-offer__button btn" href="#">Book Now</a>
+												</div>
+											</div>
+										</div>
+										<div class="offers__slide swiper-slide">
+											<div class="offers__body">
+												<img class="offers__image ibg" src="img/offers/offer-2.webp" alt="offer" />
+												<div class="offers__content content-offer">
+													<div class="content-offer__subtitle">
+														International Hotels
+													</div>
+													<a class="content-offer__title title title--s" href="#">
+														<h3>
+															Enjoy upto 20% off on International Hotels
+														</h3>
+													</a>
+													<div class="content-offer__text">
+														<p>
+															Make the most of this deal on your first booking
+															with trxvl.
+														</p>
+													</div>
+													<a class="content-offer__button btn" href="#">Book Now</a>
+												</div>
+											</div>
+										</div>
+										<div class="offers__slide swiper-slide">
+											<div class="offers__body">
+												<img class="offers__image ibg" src="img/offers/offer-1.webp" alt="offer" />
+												<div class="offers__content content-offer">
+													<div class="content-offer__subtitle">
+														Domestic Flights
+													</div>
+													<a class="content-offer__title title title--s" href="#">
+														<h3>Huge savings on flight with trxvl.</h3>
+													</a>
+													<div class="content-offer__text">
+														<p>Book domestic flights starting @ just ₹1459</p>
+													</div>
+													<a class="content-offer__button btn" href="#">Book Now</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="property">
+							<div class="property__row __out-of-container">
+								<h2 class="property__title title title--m" data-watch data-watch-once>
+									Browse by property type
+								</h2>
+								<div class="property__slider swiper">
+									<div class="property__wrapper swiper-wrapper">
+										<div class="property__slide swiper-slide" href="#">
+											<a class="property__body" href="#">
+												<h3 class="property__lable title title--s">Hotels</h3>
+												<img class="property__image ibg" src="img/property/p1.webp" alt="property place" />
+											</a>
+										</div>
+										<a class="property__slide swiper-slide" href="#">
+											<div class="property__body">
+												<h3 class="property__lable title title--s">
+													Apartments
+												</h3>
+												<img class="property__image ibg" src="img/property/p2.webp" alt="property place" />
+											</div>
+										</a>
+										<a class="property__slide swiper-slide" href="#">
+											<div class="property__body">
+												<h3 class="property__lable title title--s">
+													Resorts
+												</h3>
+												<img class="property__image ibg" src="img/property/p3.webp" alt="property place" />
+											</div>
+										</a>
+										<a class="property__slide swiper-slide" href="#">
+											<div class="property__body">
+												<h3 class="property__lable title title--s">Villas</h3>
+												<img class="property__image ibg" src="img/property/p2.webp" alt="property place" />
+											</div>
+										</a>
+										<a class="property__slide swiper-slide" href="#">
+											<div class="property__body">
+												<h3 class="property__lable title title--s">
+													Resorts
+												</h3>
+												<img class="property__image ibg" src="img/property/p1.webp" alt="property place" />
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="plan">
+							<div class="plan__container">
+								<div class="plan__content">
+									<h2 class="plan__title title title--l" data-watch data-watch-once>
+										Plan your trip with travel expert
+									</h2>
+									<div class="plan__text">
+										<p>
+											Our professional advisors can craft your perfect
+											itinerary
+										</p>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="connect">
+							<div class="connect__row __out-of-container">
+								<h2 class="connect__title title title--m" data-watch data-watch-once>
+									Connect with other travelers in our community
+								</h2>
+								<div class="connect__slider swiper">
+									<div class="connect__wrapper swiper-wrapper">
+										<div class="connect__slide swiper-slide">
+											<div class="connect__body">
+												<img class="connect__image ibg" src="img/connect/c-1.webp" alt="offer" />
+												<div class="connect__content content-col">
+													<a class="content-col__title title title--s" href="#">
+														<h3>India</h3>
+													</a>
+													<div class="content-col__community">
+														Travel community
+													</div>
+													<div class="content-col__members">
+														155,073 travelers
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="connect__slide swiper-slide">
+											<div class="connect__body">
+												<img class="connect__image ibg" src="img/connect/c-2.webp" alt="offer" />
+												<div class="connect__content content-col">
+													<a class="content-col__title title title--s" href="#">
+														<h3>India</h3>
+													</a>
+													<div class="content-col__community">
+														Travel community
+													</div>
+													<div class="content-col__members">
+														155,073 travelers
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="connect__slide swiper-slide">
+											<div class="connect__body">
+												<img class="connect__image ibg" src="img/connect/c-3.webp" alt="offer" />
+												<div class="connect__content content-col">
+													<a class="content-col__title title title--s" href="#">
+														<h3>India</h3>
+													</a>
+													<div class="content-col__community">
+														Travel community
+													</div>
+													<div class="content-col__members">
+														155,073 travelers
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="connect__slide swiper-slide">
+											<div class="connect__body">
+												<img class="connect__image ibg" src="img/connect/c-2.webp" alt="offer" />
+												<div class="connect__content content-col">
+													<a class="content-col__title title title--s" href="#">
+														<h3>India</h3>
+													</a>
+													<div class="content-col__community">
+														Travel community
+													</div>
+													<div class="content-col__members">
+														155,073 travelers
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="connect__slide swiper-slide">
+											<div class="connect__body">
+												<img class="connect__image ibg" src="img/connect/c-1.webp" alt="offer" />
+												<div class="connect__content content-col">
+													<a class="content-col__title title title--s" href="#">
+														<h3>India</h3>
+													</a>
+													<div class="content-col__community">
+														Travel community
+													</div>
+													<div class="content-col__members">
+														155,073 travelers
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+					<div class="categories__body"></div>
+					<div class="categories__body"></div>
+					<div class="categories__body"></div>
+					<div class="categories__body"></div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__top footer-top">
+				<div class="footer-top__container">
+					<div class="footer-top__content">
+						<img class="footer-top__image ibg" src="img/footer/phone-decor.webp" alt="phone" />
+						<div class="footer-top__inner inner">
+							<h2 class="inner__title title--l" data-watch data-watch-once>Your all-in-one travel app.</h2>
+							<div class="inner__text">
+								<p>Book flights, hotels, trains & rental cars anywhere in the world in just seconds. Get real-time flight updates, travel info, exclusive deals, and 30% more Trip Coins only on the app!</p>
+							</div>
+							<div class="inner__actions">
+								<form class="inner__form form">
+									<div data-tabs class="form__tabs">
+										<nav data-tabs-titles class="form__navigation">
+											<button type="button" class="form__title _tab-active">
+												Mobile
+											</button>
+											<button type="button" class="form__title">Email</button>
+										</nav>
+										<div data-tabs-body class="form__content">
+											<div class="form__body">
+												<div class="form__box">
+													<div class="form__text">
+														<p>
+															Enter your phone number to receive a text with a link to
+															download the app.
+														</p>
+													</div>
+													<div class="form__row-input">
+														<input data-required="num" type="tel" name="phone" data-error="" placeholder="+91 Mobile number" class="form__input input" />
+														<button type="submit" class="form__btn btn btn--white ">
+															Search
+														</button>
+													</div>
+												</div>
+											</div>
+											<div class="form__body">
+												<div class="form__box">
+													<div class="form__text">
+														<p>
+															Enter your email number to receive a text with a link to
+															download the app.
+														</p>
+													</div>
+													<div class="form__row-input">
+														<input data-required="email" type="text" name="email" data-error="" placeholder="E-mail" class="form__input input" />
+														<button type="submit" class="form__btn btn btn--white ">
+															Search
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</form>
+								<div class="inner__choice">
+									or
+								</div>
+								<div class="inner__buttons button">
+									<a class="button__item button__item--googleplay" href="#">GET IT ON <span>Google Play</span></a>
+									<a class="button__item button__item--appstore" href="#">Download on the <span>App Store</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom footer-bottom">
+				<div class="footer-bottom__container">
+					<img class="footer-bottom__logo" src="img/logo2.svg" alt="logo" />
+					<div class="footer-bottom__content">
+						<div class="footer-bottom__cols">
+							<ul class="footer-bottom__col">
+								<li class="footer-bottom__col-item">
+									<a href="#">Seslendirme ve Alt Jazz</a>
+								</li>
+								<li class="footer-bottom__col-item">
+									<a href="#">Media Market</a>
+								</li>
+								<li class="footer-bottom__col-item"><a href="#">Gillie</a></li>
+								<li class="footer-bottom__col-item"><a href="#">Size Last</a></li>
+							</ul>
+							<ul class="footer-bottom__col">
+								<li class="footer-bottom__col-item">
+									<a href="#">Self Betimes</a>
+								</li>
+								<li class="footer-bottom__col-item">
+									<a href="#">Yatırımcı İlişkileri</a>
+								</li>
+								<li class="footer-bottom__col-item">
+									<a href="#">Basal Himmler</a>
+								</li>
+							</ul>
+							<ul class="footer-bottom__col">
+								<li class="footer-bottom__col-item"><a href="#">Yard Market</a></li>
+								<li class="footer-bottom__col-item">
+									<a href="#">Is İmkanları</a>
+								</li>
+								<li class="footer-bottom__col-item">
+									<a href="#">Car Tercihleri</a>
+								</li>
+							</ul>
+							<ul class="footer-bottom__col">
+								<li class="footer-bottom__col-item"><a href="#">Hedge Karla</a></li>
+								<li class="footer-bottom__col-item">
+									<a href="#">Mullein Koşulları</a>
+								</li>
+								<li class="footer-bottom__col-item">
+									<a href="#">Autumnal Bulgier</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer-bottom__actions action-footer">
+							<a class="action-footer__button" href="#">Helmet KOD</a>
+							<ul class="action-footer__social-media social-media">
+								<li class="social-media__item social-media__item--facebook">
+									<a class="icon-facebook" href="#"></a>
+								</li>
+								<li class="social-media__item social-media__item--instagram">
+									<a class="icon-instagram" href="#"></a>
+								</li>
+								<li class="social-media__item social-media__item--twitter">
+									<a class="icon-twitter" href="#"></a>
+								</li>
+								<li class="social-media__item social-media__item--youtube">
+									<a class="icon-youtube" href="#"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer-bottom__copy">
+							© 1997-2021 Netflix, Inc. {i-062d573a0ee099242}
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__site-nav site-nav">
+				<div class="site-nav__body">
+					<a class="site-nav__page" href="#">
+						<span class="site-nav__icon icon-nav-icon1 _active-page"></span>
+						<div class="site-nav__text _active-page">Home</div>
+					</a>
+					<a class="site-nav__page" href="#">
+						<span class="site-nav__icon icon-nav-icon2"></span>
+						<div class="site-nav__text">Packages</div>
+					</a>
+					<a class="site-nav__page" href="#">
+						<span class="site-nav__icon icon-nav-icon3"></span>
+						<div class="site-nav__text">Stays</div>
+					</a>
+					<a class="site-nav__page" href="#">
+						<span class="site-nav__icon icon-nav-icon4"></span>
+						<div class="site-nav__text">Flights</div>
+					</a>
+				</div>
+			</div>
+		</footer>
+
+
+	</div>
+	<script src="js/app.min.js?_v=20240517174235"></script>
+</body>
+
+</html>
